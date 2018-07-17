@@ -17,10 +17,11 @@ IaaS software have been suffered for a long time.
 In terms of complexity, ZStack sticks to the design principles of APIs managing everything, full automation, self-managed services,
 no hardware lockin, and user-friendly query APIs, providing a software easy to setup and long-term operation.
 
-In terms of stability, ZStack was born with a plugin system that adding or removing features will not impact existing codes,
-a workflow engine that can rollback completed changes on error, a cascade framework that can spread an operation from
-a resource to dependent resources, and three rigorous automated testing systems that guard every single feature,
-solving the stability issue in architectural designs.
+Stability 
+Plugin system in ZStack enables to add or remove features without affecting followings:
+1) existing codes 
+2) a workflow engine that can rollback completed changes on error
+3) a cascade framework that can spread an operation from a resource to dependent resources 4) three rigorous automated testing systems that guard every single feature, solving the stability issue in architectural designs
 
 Besides, ZStack is extremely scalable that a single management node is capable of managing hundreds of thousands of
 physical servers, managing millions of virtual machines, and serving tens of thousands of concurrent API requests,
